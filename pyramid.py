@@ -15,7 +15,7 @@ class PyRamid(object):
 
 			Keyword arguments:
 			maxSolutions -- Number of solutions the script shall search at maximum.
-			globalMaxValue -- In some caches it's not possible to find a maximum value for a brick. This value is used in these cases.
+			globalMaxValue -- In some cases it's not possible to find a maximum value for a brick. This value is used in these cases.
 		"""
 		self._maxSolutions = maxSolutions
 		self._globalMaxValue = globalMaxValue
